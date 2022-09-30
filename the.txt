@@ -1,0 +1,9 @@
+
+aaabbaacccaa
+O/P: 7a2b3c
+
+Is this a palindrome – dsdsd ?
+
+Find the second least number in the array: 
+
+[123, 234, 12, 453, 23232]

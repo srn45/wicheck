@@ -1,0 +1,143 @@
+Bhumi Shah3:20 PM
+function func1(){
+
+  setTimeout(()=>{
+
+    console.log(x);
+
+    console.log(y);
+
+  },3000);
+
+ 
+
+  var x = 2;
+
+  let y = 12;
+
+}
+
+func1();
+You3:22 PM
+undefined
+undefined
+Bhumi Shah3:22 PM
+function func2(){
+
+  for(var i = 0; i < 3; i++){
+
+    setTimeout(()=> console.log(i),2000);
+
+}
+
+}
+
+func2();
+You3:24 PM
+0
+0
+0
+Bhumi Shah3:24 PM
+(function(){
+
+  setTimeout(()=> console.log(1),2000);
+
+  console.log(2);
+
+  setTimeout(()=> console.log(3),0);
+
+  console.log(4);
+
+})();
+You3:26 PM
+2
+3
+4
+1
+Bhumi Shah3:26 PM
+function runFunc(){
+  console.log("1" + 1);
+  console.log("A" - 1);
+  console.log(2 + "-2" + "2");
+  console.log("Hello" - "World" + 78);
+  console.log("Hello"+ "78");
+}
+runFunc();
+You3:28 PM
+11
+nan
+2-22
+You3:29 PM
+nan
+hello78
+Bhumi Shah3:29 PM
+let a = 0;
+let b = false;
+console.log((a == b));
+console.log((a === b));
+You3:30 PM
+true
+false
+
+
+
+14th sept interview 
+
+
+Rotate the given array at a given index.
+	const arr = [1,2,3,4,5,6]
+	const index = 3
+	const output = [4,5,6,1,2,3]
+
+Remove duplicates from array without in-built function.
+	const arr = [1,2,2,3,4,5,5,6,6]
+	const output = [1,2,3,4,5]
+
+Return the 2nd largest element in the array.
+	const arr = [1,5,7,6,5,3]
+	const output = 6
+
+Remove duplicate elements in the given array of strings.
+	const arr = [“aabc”,“bcbc”,“cdeef”,”acdii”, “abcd”]
+	const output = [“abc”,“bc”,“cdef”,”acdi”, “abcd”]
+
+https://www.themealdb.com/api/json/v1/1/search.php?f=a
+
+Flatten the given array without using in-build methods
+	const arr = [1,[2,3],4,[5,[6,7]],8,9,[10]]
+	const output = [1,2,3,4,5,6,7,8,9,10]
+
+
+16th sept pwc
+let nums = [1, 2, 2, 3]
+console.log([...new Set(nums)]);
+You11:41 AM
+[1,2,3]
+Payel Mallick Chowdhury (IN)11:41 AM
+let nums = [1, 2, 2, 3]
+console.log([new Set(nums)]);
+Payel Mallick Chowdhury (IN)11:42 AM
+var foo = [1,2,3];
+var bar = [1,2,3];
+var foo2 = foo;
+var bar2 = bar;
+foo = [];
+bar.length = 0;
+console.log(foo, bar, foo2, bar2);
+You11:46 AM
+[1,2,3]
+[]
+[1,2,3]
+[1,2,3]
+
+
+16th sept before ITYX gave api 12 pm
+{"name":"Vampire Bat","latin_name":"Desmodus rotundus","animal_type":"Mammal","active_time":"Nocturnal","length_min":"0.23","length_max":"0.32","weight_min":"0.08","weight_max":"0.1","lifespan":"9","habitat":"Rainforest, scrub, and desert","diet":"Mammal blood","geo_range":"Mexico, Central and South America","image_link":"https://upload.wikimedia.org/wikipedia/commons/3/32/Desmodus_rotundus_A_Ca
+
+https://zoo-animal-api.herokuapp.com/animals/rand
+
+16th sept ITYX gave api 12.30 pm
+https://jsonplaceholder.typicode.com/users
+
+
+

@@ -1,0 +1,5 @@
+  <!-- add button -->
+    <ng-container matColumnDef="button">
+        <th mat-header-cell *matHeaderCellDef>button</th>
+        <td mat-cell *matCellDef="let element"><button type="button" class="btn btn-outline-info">Add </button></td>
+    </ng-container>
